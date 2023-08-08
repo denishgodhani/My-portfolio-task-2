@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shorutcut icon" type="image/png" href="./assets/img/logo.png" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <title>Denish-Portfolio</title>
+  </head>
+  <body>
+    <!--STYLE SWITCHER-->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+      <h3 class="style__switcher-title">Theme Colors</h3>
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="./index.html" class="nav-logo">Denish.</a>
+        <input type="checkbox" id="nav-toggler" style="display: none" />
+        <label for="nav-toggler" class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav-list">
+          <li class="nav-items">
+            <a href="#home" class="nav-link active-link">Home</a>
+          </li>
+          <li class="nav-items">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-items">
+            <a href="#qualification" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-items">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-items">
+            <a href="#work" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-items">
+            <a href="#contact" class="nav-link">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home-container container grid">
+          <div class="home-content">
+            <span class="home-small">Hello</span>
+            <h1 class="home-title">
+              <span>I'm</span> Denish <br />
+              a <span>Frontend Devloper.</span>
+            </h1>
+            <p class="home-description">
+              As a Frontend Web Developer, I specialize in creating visually
+              appealing and interactive websites that engage users and deliver
+              an exceptional user experience. With a keen eye for design and a
+              strong command of programming languages such as HTML, CSS, and
+              JavaScript, I bring web designs to life by translating them into
+              responsive and functional interfaces.
+            </p>
+            <div class="home-btn">
+              <a href="#contact" class="btn">Hire Me</a>
+              <a href="#work" class="btn btn-transparent">Portfolio</a>
+            </div>
+          </div>
+          <div class="home-img">
+            <img src="./assets/img/denish.png" alt="img" class="img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about-container container grid">
+          <div class="about-img-wrapper">
+            <img src="./assets/img/about1.jpg" alt="" class="about-img" />
+            <img src="./assets/img/about1.jpg" alt="" class="about-img" />
+            <img src="./assets/img/about1.jpg" alt="" class="about-img" />
+            <img src="./assets/img/about1.jpg" alt="" class="about-img" />
+          </div>
+          <div class="about-content">
+            <h2 class="section-title" data-title="Who am I?">
+              I'm Denish Godhani, a Frontend Web Devloper and video Editor.
+            </h2>
+            <p class="about-desc">
+              I am a frontend web developer who combines artistic flair with
+              technical expertise to create immersive and impactful digital
+              experiences. With a commitment to excellence, collaboration, and
+              continuous growth, I am dedicated to delivering outstanding
+              results that exceed expectations and leave a lasting impression.
+            </p>
+            <ul class="about-data grid">
+              <li class="data-items">
+                <h3 class="data-title">Name:</h3>
+                <span class="data-desc">Denish Godhani</span>
+              </li>
+
+              <li class="data-items">
+                <h3 class="data-title">Age:</h3>
+                <span class="data-desc">21 years</span>
+              </li>
+
+              <li class="data-items">
+                <h3 class="data-title">From:</h3>
+                <span class="data-desc">Junagadh,Gujrat</span>
+              </li>
+
+              <li class="data-items">
+                <h3 class="data-title">Email:</h3>
+                <span class="data-desc about-link"
+                  >denishgodhani11@gmail.com</span
+                >
+              </li>
+            </ul>
+            <div class="about-bottam">
+              <a href="./assets/pdf/denish-cv.pdf" class="btn" target="_blank"
+                >Download Cv</a
+              >
+              <div class="about-social-links">
+                <a
+                  href="https://www.linkedin.com/in/denish-godhani-36944a221/"
+                  class="about-social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+
+                <a
+                  href="https://www.instagram.com/denishgodhani._/?next=%2F"
+                  class="about-social-link"
+                  target="_blank"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUALIFICATION -->
+      <section class="qualification section" id="qualification">
+        <h2 class="section-title title-center" data-title="My Journey">
+          Qualification
+        </h2>
+        <div class="resume-container container grid">
+          <div class="resume-group">
+            <h3 class="resume-heading">Education</h3>
+            <div class="resume-items">
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">Alpha Vidhya Sankul</div>
+                  <span class="resume-icon">+</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">Primary Education</h3>
+                    <span class="resume-date">2008-2017</span>
+                  </div>
+                  <p class="resume-desc">
+                    I have completed my primary education from Alpha Vidhya
+                    Sankul at Junagadh.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">Pambhar Science Acedemy</div>
+                  <span class="resume-icon">-</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">Higher Secondary Education</h3>
+                    <span class="resume-date">2018-2020</span>
+                  </div>
+                  <p class="resume-desc">
+                    I have completed my higher secondary education from Pambhar
+                    Science Acedemy at rajkot
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">
+                    S.P.B. Patel Engineering collage
+                  </div>
+                  <span class="resume-icon">+</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">B.E Computer Engineering</h3>
+                    <span class="resume-date">2020-Present</span>
+                  </div>
+                  <p class="resume-desc">
+                    Currently i'm studying B.E computer Engineering at saffrony
+                    institute of technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-group">
+            <h3 class="resume-heading">Experience</h3>
+            <div class="resume-items">
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">CodeSoft Infotech</div>
+                  <span class="resume-icon">+</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">Intern</h3>
+                    <span class="resume-date">2023-present</span>
+                  </div>
+                  <p class="resume-desc">
+                    Currently i'm a working as a Intern at a codesoft infotech,
+                    which is placed in Ahemdabad.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">Udemy Course</div>
+                  <span class="resume-icon">-</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">
+                      Full stack web-devlopment Course
+                    </h3>
+                    <span class="resume-date">2021-2022</span>
+                  </div>
+                  <p class="resume-desc">
+                    I have completed FULL STACK WEB-DEVLOPMENR course from
+                    Udemy. In which i have build a lot'sof project.
+                  </p>
+                </div>
+              </div>
+              <div class="resume-item">
+                <div class="resume-header">
+                  <div class="resume-subtitle">Coursera Course</div>
+                  <span class="resume-icon">-</span>
+                </div>
+                <div class="resume-content">
+                  <div class="resume-date-title">
+                    <h3 class="resume-title">
+                      Full stack web-devlopment Course
+                    </h3>
+                    <span class="resume-date">2021-2022</span>
+                  </div>
+                  <p class="resume-desc">
+                    I have completed FULL STACK WEB-DEVLOPMENR course from
+                    Coursera. In which i have build a lot'sof project.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services section" id="services">
+        <h2 class="section-title title-center" data-title="Services">
+          What I do for you
+        </h2>
+        <div class="services-container container grid">
+          <div class="services-item">
+            <i class="fa-solid fa-laptop services-icon"></i>
+            <h3 class="services-title">Web-Devlopment</h3>
+            <p class="services-desc">
+              By leveraging my skills, passion, and dedication, I am committed
+              to helping businesses and individuals establish a strong online
+              presence and deliver outstanding user experiences through visually
+              stunning and functional websites.
+            </p>
+            <span class="services-no">01</span>
+          </div>
+
+          <div class="services-item">
+            <i class="fa-solid fa-wand-magic-sparkles services-icon"></i>
+            <h3 class="services-title">Video Editing</h3>
+            <p class="services-desc">
+              By utilizing my technical skills, artistic vision, and attention
+              to detail, I am dedicated to helping you bring your video projects
+              to life. Whether it's a promotional video, corporate content,
+              vlogs, or event coverage, I strive to deliver visually compelling
+              videos that engage and leave a lasting impact on your audience.
+            </p>
+            <span class="services-no">02</span>
+          </div>
+
+          <div class="services-item">
+            <i class="fa-solid fa-image services-icon"></i>
+            <h3 class="services-title">Photo Editing</h3>
+            <p class="services-desc">
+              With a meticulous attention to detail, technical proficiency, and
+              a passion for visual storytelling, I am dedicated to enhancing
+              your photos and helping you achieve the desired impact. Whether
+              it's for personal use, professional portfolios, or commercial
+              campaigns, I strive to deliver exceptional photo editing services
+              that meet and exceed your expectations.
+            </p>
+            <span class="services-no">03</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills section">
+        <h2 class="section-title title-center" data-title="My Talent">
+          Professional Skills
+        </h2>
+        <div class="skill-containner container grid">
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">HTML</h3>
+              <span class="skill-no">85%</span>
+            </div>
+
+            <p class="skill-desc">
+              I'm truly passionate about HTML and its role in web development.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">CSS</h3>
+              <span class="skill-no">80%</span>
+            </div>
+
+            <p class="skill-desc">
+              Advanced proficiency in CSS3, creating visually stunning and
+              responsive web designs.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">JavaScript</h3>
+              <span class="skill-no">70%</span>
+            </div>
+
+            <p class="skill-desc">
+              Strong proficiency in JavaScript, developing interactive and
+              dynamic web applications.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">Adobe Photoshop</h3>
+              <span class="skill-no">80%</span>
+            </div>
+
+            <p class="skill-desc">
+              Proficient in Adobe Photoshop, utilizing its powerful tools for
+              image editing, retouching, and manipulation.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">Adobe Premiere Pro</h3>
+              <span class="skill-no">65%</span>
+            </div>
+
+            <p class="skill-desc">
+              Proficient in Adobe Premiere Pro, utilizing its powerful tools for
+              video editing, post-production, and storytelling.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-percentage" style="width: 65%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-title">
+              <h3 class="skill-name">Filmora</h3>
+              <span class="skill-no">80%</span>
+            </div>
+
+            <p class="skill-desc">
+              Proficient in using Filmora video editing software to create
+              professional and visually appealing videos.
+            </p>
+            <div class="skill-bar">
+              <div class="skill-title"></div>
+              <div class="skill-percentage" style="width: 70%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section class="works section" id="work">
+        <h2 class="section-title title-center" data-title="My Portfolio">
+          Recent Projects
+        </h2>
+        <div class="work-container container grid">
+          <div class="work-card">
+            <img src="./assets/img/project-img-1.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-desc">My Persnoal Portfolio</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="./assets/img/project-img-2.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Clone</h3>
+              <span class="work-desc">Usabilityhub web-clone</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="./assets/img/project-img-3.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-desc">My Persnoal Portfolio</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="./assets/img/project-img-4.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-desc">My Persnoal Portfolio</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="./assets/img/project-img-5.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-desc">My Persnoal Portfolio</span>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="./assets/img/project-img-6.jpg" alt="" class="work-img" />
+
+            <div class="work-details">
+              <h3 class="work-title">Web Design</h3>
+              <span class="work-desc">My Persnoal Portfolio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title title-center" data-title="Get in touch">
+          Contact Me
+        </h2>
+        <div class="contact-container container grid">
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fa-solid fa-phone contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Call us</h3>
+                <span class="contact-data">+917984989290</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope contact-icon"></i>
+              <div>
+                <h3 class="contact-title">Email us</h3>
+                <span class="contact-data">denishgodhani11@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <form action="" class="contact-form">
+            <div class="form-group">
+              <div class="form-input">
+                <input type="text" placeholder="Name" class="input-control" />
+              </div>
+              <div class="form-input">
+                <input type="email" placeholder="Email" class="input-control" />
+              </div>
+            </div>
+            <div class="form-input">
+              <input type="text" placeholder="Subject" class="input-control" />
+            </div>
+            <div class="form-input">
+              <textarea
+                name=""
+                id=""
+                placeholder="Message"
+                cols="30"
+                rows="10"
+                class="input-control textarea"
+              ></textarea>
+            </div>
+            <button class="btn contact-btn">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <p class="footer-copyright">&copy; 2023 Denish. All Rights Reserved.</p>
+        <div class="footer-social-links">
+          <a
+            href="https://www.linkedin.com/in/denish-godhani-36944a221/"
+            class="footer-social-link"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+
+          <a
+            href="https://www.instagram.com/denishgodhani._/?next=%2F"
+            class="footer-social-link"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
